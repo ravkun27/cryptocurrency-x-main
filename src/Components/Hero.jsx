@@ -24,6 +24,7 @@ const Hero = () => {
 
   return (
     <section className="max-w-screen flex flex-col justify-center items-center">
+      
       <div className="flex flex-col justify-center items-center pt-16 md:pt-24 w-full z-10">
         <div className="text-center md:px-4 mb-4 md:w-[70%]">
           <h1 className="text-[2.5rem] md:text-[4rem] font-semibold md:font-medium leading-tight">
@@ -47,6 +48,8 @@ const Hero = () => {
           </button>
         </div>
       </div>
+
+
       <div className="w-full h-[300px] md:h-[500px] bg-cover -mt-[9%] contrast-200 -z-10 mix-blend-lighten relative animate-pulse"
           style={{
             backgroundImage:

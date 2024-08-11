@@ -22,7 +22,7 @@ const Navbar = () => {
           <li className="hover:opacity-70 cursor-pointer">About Us</li>
         </ul>
         <div className="w-[40%] md:hidden flex justify-between items-center relative cursor-pointer">
-          <div className="text-sm whitespace-nowrap">Live Prices</div>
+          <div className="text-xl whitespace-nowrap">Live Prices</div>
           <div className="space-y-4 relative w-full px-4" onClick={handleToggle}>
             <div className={` ${toggle ? "hamburger-icon-top" : ""} h-[3px] w-[32px] rounded bg-neutral-50`}></div>
             <div className={` ${toggle ? "hamburger-icon-bottom" : ""} h-[3px] w-[32px] rounded bg-neutral-50`}></div>

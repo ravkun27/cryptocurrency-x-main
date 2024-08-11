@@ -16,7 +16,7 @@ export default {
       'secondary3': '#2ecff6',
     },
     animation: {
-      'infinite-scroll': 'infinite-scroll 15s linear infinite',
+      'infinite-scroll': 'infinite-scroll 10s linear infinite',
     },
     keyframes: {
       'infinite-scroll': {
